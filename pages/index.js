@@ -1,11 +1,11 @@
 import React from "react";
 
-import Product from "@/components/Product";
+import Product from "/components/Product";
 
-import FooterBanner from "@/components/FooterBanner";
+import FooterBanner from "/components/FooterBanner";
 
-import HeroBanner from "@/components/HeroBanner";
-import { client } from "@/lib/client";
+import HeroBanner from "/components/HeroBanner";
+import { client } from "/lib/client";
 
 const Home = ({ products, bannerData }) => (
   <div>
